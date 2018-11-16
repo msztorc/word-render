@@ -4,7 +4,7 @@ CLI tool for text replacements in MS Word documents and PDF exporter*
 
 **PDF export require Windows platform with MS Word installed*
 
-##Requirements
+## Requirements
 - ZipArchive class (PHP 5 >= 5.2.0, PHP 7, PECL zip >= 1.1.0)
 - COM Class (The COM class allows you to instantiate an OLE compatible COM object (such as MS Word) and call its methods and access its properties) - required only to export pdf files using MS Word
 
@@ -12,7 +12,7 @@ This COM extension requires ``php_com_dotnet.dll`` to be enabled inside of ``php
 
 ``extension=php_com_dotnet.dll``
 
-##Usage
+## Usage
 ``php word-render.php [options]``
 
 ```
